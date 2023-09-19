@@ -48,8 +48,4 @@ public class Computer {
         supplier.printDetails();
     }
 
-    @PreDestroy
-    public void destroy() {
-        System.out.println("Object is being destroyed - Computer.java");
-    }
 }

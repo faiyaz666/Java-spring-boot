@@ -38,8 +38,4 @@ public class Programmer {
         this.computer.printDetails();
     }
 
-    @PreDestroy
-    public void destroy() {
-        System.out.println("Object is being destroyed - Programmer.java");
-    }
 }

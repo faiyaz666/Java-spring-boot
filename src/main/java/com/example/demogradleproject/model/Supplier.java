@@ -37,8 +37,5 @@ public class Supplier {
         System.out.println("The supplier name is " + name + " . And they are from " + country);
     }
 
-    @PreDestroy
-    public void destroy() {
-        System.out.println("Object is being destroyed - Supplier.java");
-    }
+
 }
